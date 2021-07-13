@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>website-design1</title>
+  </head>
+  <body>
+    <!--main wrapper-->
+    <div class="main">
+      <!--header-section-->
+      <header>
+        <span class="openbtn" onclick="openNav()">&#9776;</span>
+        <div class="hamburger" id="header-content">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="nav-list-wrapper">
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link" onclick="openNavLink()" href="#home"
+                  >home<span class="bar"></span
+                ></a>
+              </li>
+              <li>
+                <a class="nav-link" onclick="openNavLink()" href="#about"
+                  >about<span class="bar"></span
+                ></a>
+              </li>
+              <li>
+                <a class="nav-link" onclick="openNavLink()" href="#skills"
+                  >skills<span class="bar"></span
+                ></a>
+              </li>
+              <li>
+                <a class="nav-link" onclick="openNavLink()" href="#work"
+                  >work<span class="bar"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="nav-link nav-link-testimonials"
+                  onclick="openNavLink()"
+                  href="#testimonials"
+                  >testimonials<span class="bar"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="nav-link nav-link-contact"
+                  onclick="openNavLink()"
+                  href="#contact"
+                  >contact<span class="bar"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="nav-link"
+                  href="#blog"
+                  onclick="openNavLink()"
+                  target="acupofasmita"
+                  >blog<span class="bar"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!--section-home-->
+      <section id="home">
+        <div class="home-content">
+          <p class="home-para">
+            <span>G'day, I'm Asmita!</span>
+            <span>I'm a Computer Engineer and</span>
+            <span class="home-animation"></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- home-angle: angle-1  -->
+      <div class="angle-1"></div>
+      <!-- /angle-1 -->
+
+      <!--section-about-->
+      <section id="about">
+        <h4 class="about-h4">ABOUT</h4>
+        <h2 class="about-h2">Who's Asmita?</h2>
+        <div class="about-wrapper">
+          <!-- about-container start-->
+          <div class="about-container">
+            <div class="about-image">
+              <img class="about-img" src="./image.jpg" />
+            </div>
+            <article class="about-article">
+              <h4
+                style="
+                  line-height: 30px;
+                  font-size: 25px;
+                  color: #7689d8;
+                  margin-bottom: 15px;
+                  margin-left: 0;
+                "
+              >
+                A curiosity-driven Front-End Developer.
+              </h4>
+              <p class="about-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium quo placeat ea in, laborum dolorem explicabo porro
+                temporibus omnis doloribus molestiae iusto culpa, consequatur
+                corrupti deleniti eligendi repellat, ratione provident? Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Sit earum
+                saepe repudiandae, eius ut cupiditate repellendus eligendi!
+                Repudiandae repellendus pariatur atque debitis libero ab
+                accusamus minus aliquid. Vitae, repellat est.
+              </p>
+              <h4 style="margin-left: 0">
+                <a href="#contact">Get in touch!</a>
+              </h4>
+            </article>
+          </div>
+          <!-- /about-container -->
+        </div>
+        <!-- /about-wrapper -->
+      </section>
+
+      <!-- angle-2 -->
+      <div class="angle-2"></div>
+      <!-- /angle-2 -->
+
+      <!-- section skills -->
+      <section id="skills">
+        <h4 class="skills-h4">SKILLS</h4>
+        <h2 class="skills-h2">My Toolbox & Things I Can Do</h2>
+        <p class="skills-para">
+          The skills, tools and technologies I use to bring your products to
+          life:
+        </p>
+        <div class="skills-wrapper">
+          <!-- skills-inner-icons -->
+          <div class="skills-inner-icons">
+            <div class="icon-box">
+              <i class="fab fa-html5 fa-4x"><p class="icons-para">HTML5</p></i>
+            </div>
+            <div class="icon-box">
+              <i class="fab fa-css3 fa-4x"><p class="icons-para">CSS3</p></i>
+            </div>
+            <div class="icon-box">
+              <i class="fab fa-js fa-4x"
+                ><p class="icons-para">JavaScript</p></i
+              >
+            </div>
+            <div class="icon-box">
+              <i class="fab fa-github fa-4x"
+                ><p class="icons-para">Github</p></i
+              >
+            </div>
+            <div class="icon-box">
+              <i class="fab fa-git-alt fa-4x"><p class="icons-para">Git</p></i>
+            </div>
+            <div class="icon-box">
+              <i class="far fa-terminal fa-4x"
+                ><p class="icons-para">Command Line</p></i
+              >
+            </div>
+            <div class="icon-box">
+              <i class="fal fa-laptop-code fa-4x"
+                ><p class="icons-para">Responsive Websites</p></i
+              >
+            </div>
+            <div class="icon-box">
+              <i class="fab fa-wordpress fa-4x"
+                ><p class="icons-para">WordPress</p></i
+              >
+            </div>
+          </div>
+          <!-- /skills-inner-icons -->
+          <h2 class="skills-update">Currently working on:</h2>
+          <p class="skills-update-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            deserunt iste, dolorem totam pariatur consequuntur vitae iusto
+            laudantium porro consectetur omnis laborum ut mollitia quae
+            repudiandae assumenda rerum ullam magnam!
+          </p>
+        </div>
+        <!-- /skills-wrapper -->
+      </section>
+
+      <!-- angle-3 -->
+      <div class="angle-3"></div>
+      <!-- /angle-3 -->
+
+      <!-- section work -->
+      <section id="work">
+        <h4 class="work-h4" style="color: white">WORK</h4>
+        <h2 class="work-h2" style="color: navy">
+          A Selection Of Stuff I've Built
+        </h2>
+        <div class="work-outer">
+          <div class="work-inner">
+            <!-- work-container -->
+            <div class="work-container">
+              <!-- work-one: weather app -->
+              <div class="work-container-content work-one">
+                <article class="work-text work-one-text">
+                  <h4 class="work-container-h4">Weather App</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio temporibus corporis ea at laborum tenetur
+                    necessitatibus ratione atque nemo odit est eaque odio cum
+                    fugit, eum nostrum molestiae sint earum!
+                  </p>
+                  <!-- mini-icons start -->
+                  <div class="work-mini-icons">
+                    <div class="work-icon-box">
+                      <i class="fab fa-html5 fa-x"></i>
+                    </div>
+                    <div class="work-icon-box">
+                      <i class="fab fa-css3 fa-x"></i>
+                    </div>
+                    <div class="work-icon-box">
+                      <i class="fab fa-js fa-x"></i>
+                    </div>
+                  </div>
+                  <!-- mini-icons end -->
+                  <!-- work-btns  start -->
+                  <div class="work-btns-container">
+                    <!-- first btn -->
+                    <div class="work-btns-one">
+                      <a class="work-btns-link" href="" target="_blank">
+                        Visit It Here
+                        <i
+                          id="work-btns-icon"
+                          class="fa fa-external-link-alt"
+                          style="border: 3px solid transparent"
+                        >
+                        </i>
+                      </a>
+                    </div>
+                    <!-- second btn -->
+                    <div class="work-btns-two">
+                      <a class="work-btns-link" href="" target="_blank">
+                        Visit Github Repo
+                        <i
+                          id="work-btns-icon"
+                          class="fa fa-external-link-alt"
+                          style="border: 3px solid transparent"
+                        >
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- work-btns end -->
+                </article>
+                <div class="work-image work-one-image">
+                  <img
+                    src="http://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg"
+                    alt="laptop"
+                    style="height: 250px; width: 350px"
+                  />
+                </div>
+              </div>
+              <!-- work-two:todo-list -->
+              <div class="work-container-content work-two">
+                <div class="work-image work-two-image">
+                  <img
+                    src="http://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg"
+                    alt="laptop"
+                    style="height: 250px; width: 350px"
+                  />
+                </div>
+                <article class="work-text work-two-text">
+                  <h4 class="work-container-h4">Todo List</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio temporibus corporis ea at laborum tenetur
+                    necessitatibus ratione atque nemo odit est eaque odio cum
+                    fugit, eum nostrum molestiae sint earum!
+                  </p>
+                  <!-- mini-icons start -->
+                  <div class="work-mini-icons">
+                    <div class="work-icon-box">
+                      <i class="fab fa-html5 fa-x"></i>
+                    </div>
+                    <div class="work-icon-box">
+                      <i class="fab fa-css3 fa-x"></i>
+                    </div>
+                    <div class="work-icon-box">
+                      <i class="fab fa-js fa-x"></i>
+                    </div>
+                  </div>
+                  <!-- mini-icons end -->
+                  <!-- work-btns  start -->
+                  <div class="work-btns-container">
+                    <!-- first btn -->
+                    <div class="work-btns-one">
+                      <a class="work-btns-link" href="" target="_blank">
+                        Visit It Here
+                        <i
+                          id="work-btns-icon"
+                          class="fa fa-external-link-alt"
+                          style="border: 3px solid transparent"
+                        >
+                        </i>
+                      </a>
+                    </div>
+                    <!-- second btn -->
+                    <div class="work-btns-two">
+                      <a class="work-btns-link" href="" target="_blank">
+                        Visit Github Repo
+                        <i
+                          id="work-btns-icon"
+                          class="fa fa-external-link-alt"
+                          style="border: 3px solid transparent"
+                        >
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- work-btns end -->
+                </article>
+              </div>
+              <!-- work-three:drag&drop -->
+              <div class="work-container-content work-three">
+                <article class="work-text work-three-text">
+                  <h4 class="work-container-h4">Drag&drop</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio temporibus corporis ea at laborum tenetur
+                    necessitatibus ratione atque nemo odit est eaque odio cum
+                    fugit, eum nostrum molestiae sint earum!
+                  </p>
+                  <!-- mini-icons start -->
+                  <div class="work-mini-icons">
+                    <div class="work-icon-box">
+                      <i class="fab fa-html5 fa-x"></i>
+                    </div>
+                    <div class="work-icon-box">
+                      <i class="fab fa-css3 fa-x"></i>
+                    </div>
+                    <div class="work-icon-box">
+                      <i class="fab fa-js fa-x"></i>
+                    </div>
+                  </div>
+                  <!-- mini-icons end -->
+                  <!-- work-btns  start -->
+                  <div class="work-btns-container">
+                    <!-- first btn -->
+                    <div class="work-btns-one">
+                      <a class="work-btns-link" href="" target="_blank">
+                        Visit It Here
+                        <i
+                          id="work-btns-icon"
+                          class="fa fa-external-link-alt"
+                          style="border: 3px solid transparent"
+                        >
+                        </i>
+                      </a>
+                    </div>
+                    <!-- second btn -->
+                    <div class="work-btns-two">
+                      <a class="work-btns-link" href="" target="_blank">
+                        Visit Github Repo
+                        <i
+                          id="work-btns-icon"
+                          class="fa fa-external-link-alt"
+                          style="border: 3px solid transparent"
+                        >
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- work-btns end -->
+                </article>
+                <div class="work-image work-three-image">
+                  <img
+                    src="http://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg"
+                    alt="laptop"
+                    style="height: 250px; width: 350px"
+                  />
+                </div>
+              </div>
+              <!-- /work-three -->
+            </div>
+            <!-- /work-container -->
+          </div>
+          <!-- /work-inner -->
+        </div>
+        <!-- /work-outer -->
+      </section>
+      <!-- /work-wrapper:work section -->
+
+      <!-- angle-5 -->
+      <div class="angle-5"></div>
+      <!-- /angle-5 -->
+
+      <section id="testimonials">
+        <div class="testi-wrapper">
+          <h4 class="testi-h4" style="margin-left: 0">TESTIMONIALS</h4>
+          <h2 class="testi-h2" style="margin-left: 0">
+            Nice Things People Have Said
+          </h2>
+          <!-- content -->
+          <div class="container">
+            <!-- content-one start -->
+            <div class="container-content content-one">
+              <article class="testi-aticle" style="margin-right: 20px">
+                <p class="testi-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit ipsam libero atque recusandae odio ipsa esse
+                  sunt dolorem quia iste magni aliquid accusantium assumenda
+                  molestias at adipisci error, inventore voluptatibus.
+                </p>
+              </article>
+              <div class="testi-image">
+                <div class="testi-image-profile">
+                  <img class="testi-img" src="./image.jpg" />
+                </div>
+                <p>
+                  Name,
+                  <a class="testi-image-profile-link" href="" target="_blank">
+                    Profile link</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- /content-one -->
+
+            <!-- content-two  -->
+            <div class="container-content content-two">
+              <div class="testi-image" style="margin-right: 30px">
+                <div class="testi-image-profile">
+                  <img class="testi-img" src="./image.jpg" />
+                </div>
+                <p>
+                  Name,
+                  <a class="testi-image-profile-link" href="" target="_blank"
+                    >Profile link</a
+                  >
+                </p>
+              </div>
+              <article class="testi-aticle">
+                <p class="testi-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit ipsam libero atque recusandae odio ipsa esse
+                  sunt dolorem quia iste magni aliquid accusantium assumenda
+                  molestias at adipisci error, inventore voluptatibus.
+                </p>
+              </article>
+            </div>
+            <!-- /content-two -->
+
+            <!-- content-three -->
+            <div class="container-content content-three">
+              <article class="testi-aticle" style="margin-right: 20px">
+                <p class="testi-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit ipsam libero atque recusandae odio ipsa esse
+                  sunt dolorem quia iste magni aliquid accusantium assumenda
+                  molestias at adipisci error, inventore voluptatibus.
+                </p>
+              </article>
+              <div class="testi-image">
+                <div class="testi-image-profile">
+                  <img class="testi-img" src="./image.jpg" />
+                </div>
+                <p>
+                  Name,
+                  <a class="testi-image-profile-link" href="" target="_blank">
+                    Profile link</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- /content-three -->
+
+            <!-- content-four -->
+            <div
+              class="container-content content-four"
+              style="margin-bottom: 0px"
+            >
+              <div class="testi-image" style="margin-right: 30px">
+                <div class="testi-image-profile">
+                  <img class="testi-img" src="./image.jpg" />
+                </div>
+                <p style="text-align: center">
+                  Name,
+                  <a class="testi-image-profile-link" href="" target="_blank"
+                    >Profile link</a
+                  >
+                </p>
+              </div>
+              <article class="testi-aticle">
+                <p class="testi-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit ipsam libero atque recusandae odio ipsa esse
+                  sunt dolorem quia iste magni aliquid accusantium assumenda
+                  molestias at adipisci error, inventore voluptatibus.
+                </p>
+              </article>
+            </div>
+            <!-- /content-four -->
+          </div>
+          <!-- /container -->
+        </div>
+        <!-- /wrapper -->
+      </section>
+      <!-- /section-testi -->
+
+      <!-- angle angle-6 -->
+      <div class="angle-6"></div>
+      <!-- /angle-6 -->
+
+      <!-- section contact -->
+      <section id="contact">
+        <div class="contact-wrapper">
+          <h4 class="contact-h4">Contact</h4>
+          <h2 class="contact-h2">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-content-form">
+              <p class="contact-form-para">
+                Dropping a line to say g’day, ask for my resume or see if we can
+                build something amazing together? I’d love to hear from you!
+              </p>
+              <p class="contact-form-para">
+                Fill in your info in the form below and I look forward to
+                hearing from you!
+              </p>
+              <!-- form -->
+              <form action="/action_page.php" method="get">
+                <div class="contact-form">
+                  <input type="text" required />
+                  <label>Name*</label>
+                  <span class="bar"></span>
+                </div>
+                <div class="contact-form contact-form-email">
+                  <input type="email" required />
+                  <label>Email*</label>
+                  <span class="bar"></span>
+                </div>
+                <div class="contact-form">
+                  <input type="text" required />
+                  <label>Message*</label>
+                  <span class="bar"></span>
+                </div>
+                <button class="form-btn" type="submit" value="send">
+                  Send Email
+                  <i id="form-icon" class="fad fa-envelope-open"></i>
+                </button>
+              </form>
+            </div>
+            <div class="contact-content-media">
+              <p class="contact-media-para">
+                Feeling social? Find me on these online spaces too!
+              </p>
+              <div class="contact-icon">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram fa-lg"></i
+                ></a>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fab fa-facebook-square fa-lg"></i
+                ></a>
+                <a href="https://www.linkedincom/" target="_blank"
+                  ><i class="fab fa-linkedin fa-lg"></i
+                ></a>
+                <a href="https://www.medium.com/" target="_blank"
+                  ><i class="fab fa-medium fa-lg"></i
+                ></a>
+                <a href="https://www.twitter.com/" target="_blank"
+                  ><i class="fab fa-twitter fa-lg"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /section contact -->
+
+      <!-- section footer -->
+      <section class="footer">
+        <div class="footer-wrapper">
+          <p>© 2021 | Made with ❤️ by Asmita</p>
+        </div>
+      </section>
+      <!-- /section footer -->
+    </div>
+    <!-- /main -->
+    <script src="script.js"></script>
+  </body>
+</html>
